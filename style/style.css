@@ -483,78 +483,7 @@ body {
   width: 100%;
 }
 
-.clients {
-  margin-bottom: 193px;
-  margin-top: 189px;
-}
-.clients .container {
-  max-width: 1430px;
-  width: 100%;
-  margin: 0 auto;
-}
-.clients .clients__wrapper {
-  max-height: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 90px;
-}
-.clients .clients__header .client__header-item {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 70px;
-  line-height: 120%;
-  color: #3C4D69;
-}
-.clients .clients__content {
-  min-height: 816px;
-  height: 100%;
-  background: #F6F6F6;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 50px;
-  padding: 86px 100px 88px 100px;
-}
-.clients .clients__content-card {
-  max-width: 280px;
-  width: 100%;
-}
-.clients .clients__content-card ul {
-  max-width: 100%;
-  min-height: 642px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  list-style-type: none;
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 130%;
-  color: #3C4D69;
-}
-.clients .clients__content-card ul .clients__content-red {
-  color: #EA142E;
-}
-.clients .clients__content-card ul li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 30px;
-}
-.clients .clients__content-card ul li img {
-  vertical-align: middle;
-}
-.clients .clients__content-card:nth-child(2) {
-  text-align: right;
-}
-.clients .clients__content-card:nth-child(2) ul {
-  align-items: flex-end;
-}
+
 
 .works .container {
   max-width: 1433px;
