@@ -1846,11 +1846,15 @@ body {
 /* Iphone 5 */
 @media (max-width: 320px) {
   .header .header__nav {
+    align-items: center;
     justify-content: center;
     text-align: center;
     gap: 60px;
   }
   .header .section__main {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
     padding-top: 40px;
   }
   .header .section__main .main__title {
@@ -1859,10 +1863,14 @@ body {
     text-align: center;
   }
   .header .section__main .main__title .main__list {
+    align-items: center;
+    justify-content: center;
     align-self: center;
   }
   .header .section__main .main__title .main__list li {
     font-size: 12px;
+    max-width: 300px;
+    width: 100%;
   }
   .header .section__main .main__button {
     align-self: center;
@@ -1886,10 +1894,12 @@ body {
     font-size: 48px;
   }
   .about .about__content .about__content-list {
+    padding: 10px;
     list-style-type: none;
   }
   .about .about__content .about__content-list li {
-    font-size: 24px;
+    font-size: 22px;
+    margin: 0;
   }
   .dynamicks .container {
     padding: 10px;
@@ -2069,6 +2079,9 @@ body {
     font-size: 26px;
   }
   .sphere .sphere__main .sphere__main-card {
+    padding: 45px 70px 45px 70px;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
   }
   .sphere .sphere__main .sphere__main-card .main__card-text {
