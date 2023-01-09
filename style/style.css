@@ -152,12 +152,15 @@ body {
 .calc .calc__wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   width: 100%;
 }
 .calc .calc__content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   flex-direction: row;
   gap: 95px;
 }
@@ -1839,10 +1842,1755 @@ body {
 }
 
 /* Large desktops and laptops */
+@media (max-width: 1440px) {
+  .container {
+    padding: 10px;
+  }
+}
 /* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    padding: 10px;
+  }
+}
 /* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 10px;
+  }
+  .header .header__nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+  }
+  .header .header__nav .header__navigation {
+    gap: 60px;
+  }
+  .header .section__main {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 40px;
+  }
+  .header .section__main .main__title {
+    font-size: 24px;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  .header .section__main .main__title .main__list {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  .header .section__main .main__title .main__list li {
+    font-size: 12px;
+    max-width: 300px;
+    width: 100%;
+  }
+  .header .section__main .main__button {
+    align-self: center;
+    max-width: 90%;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .calc {
+    padding-top: 100px;
+  }
+  .calc .calc__content {
+    justify-content: center;
+  }
+  .calc .calc__profit .calc__profit-title {
+    text-align: center;
+  }
+  .about .about__wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+  .about .about__content {
+    text-align: center;
+  }
+  .about .about__content .about__content-title {
+    font-size: 48px;
+  }
+  .about .about__content .about__content-list {
+    padding: 10px;
+  }
+  .about .about__content .about__content-list li {
+    font-size: 22px;
+    margin: 0;
+  }
+  .dynamicks .container {
+    padding: 10px;
+  }
+  .dynamicks .dynamicks__title {
+    text-align: center;
+    align-items: center;
+    font-size: 48px;
+  }
+  .dynamicks .dynamicks__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .dynamicks .dynamicks__content-card .content__card-wrapper {
+    justify-content: center;
+    text-align: center;
+  }
+  .location .location__wrapper .location__title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .location .location__wrapper .location__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .works .container {
+    padding: 10px;
+  }
+  .works .works__title {
+    font-size: 42px;
+    text-align: center;
+  }
+  .works .works__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .invest .container {
+    padding: 10px;
+  }
+  .invest .invest__wrapper {
+    gap: 40px;
+  }
+  .invest .invest__wrapper .invest__title {
+    text-align: center;
+  }
+  .invest .invest__wrapper .invest__title .invest__title-item {
+    font-size: 32px;
+  }
+  .invest .invest__wrapper .invest__content {
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .invest .invest__wrapper .invest__content-text {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+  }
+  .invest .invest__wrapper .invest__content-card-1 {
+    justify-content: center;
+    align-items: center;
+  }
+  .invest .invest__wrapper .invest__content-card {
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  .invest .invest__wrapper .invest__content-card .content__card-list {
+    justify-content: center;
+    align-items: center;
+  }
+  .invest .invest__wrapper .invest__content-card .content__card-list .card__list-item {
+    gap: 50px;
+    max-width: 450px;
+    width: 100%;
+    font-size: 15px;
+  }
+  .invest .invest__wrapper .invest__content-card .content__card-list .card__list-item img {
+    max-width: 48px;
+    height: auto;
+  }
+  .invest .invest__wrapper .invest__button {
+    align-self: center;
+    max-width: 600px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .invest .invest__wrapper table.iksweb th {
+    font-size: 16px;
+  }
+  .liquidity .container {
+    padding: 10px;
+  }
+  .liquidity .liquidity__wrapper .liquidity__title {
+    text-align: center;
+    font-size: 36px;
+  }
+  .liquidity .liquidity__wrapper .liquidity__title {
+    text-align: center;
+  }
+  .liquidity .liquidity__wrapper .liquidity__title .liquidity__title-title {
+    font-size: 38px;
+  }
+  .liquidity .liquidity__wrapper .liquidity__content-1 {
+    justify-content: center;
+    align-items: c;
+  }
+  .liquidity .liquidity__wrapper .liquidity__content-card {
+    flex-wrap: wrap;
+    max-width: 320px;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+  }
+  .liquidity .liquidity__wrapper .liquidity__content-card .content__card-header {
+    flex-wrap: wrap;
+  }
+  .pension .container {
+    padding: 10px;
+  }
+  .pension .pension__wrapper .pension__header-title {
+    font-size: 36px;
+    text-align: center;
+  }
+  .pension .pension__wrapper .pension__header-desc {
+    text-align: center;
+  }
+  .pension .pension__wrapper .pension__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .pension .pension__wrapper .pension__content .content__card {
+    padding: 20px;
+    text-align: center;
+  }
+  .pension .pension__wrapper .pension__content .content__card:first-child {
+    font-size: 24px;
+  }
+  .crisis .container {
+    padding: 10px;
+  }
+  .crisis .crisis__wrapper .crisis__header {
+    text-align: center;
+  }
+  .crisis .crisis__wrapper .crisis__header .crisis__header-title {
+    font-size: 38px;
+  }
+  .crisis .crisis__wrapper .crisis__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-heading {
+    justify-content: center;
+    align-items: center;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-heading .content__heading-title {
+    text-align: center;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-heading ul {
+    padding-left: 40px;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-card:last-child {
+    text-align: center;
+  }
+  .investment {
+    padding-bottom: 100px;
+  }
+  .investment .container {
+    padding: 10px;
+  }
+  .investment .investment__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .investment .investment__wrapper .investment__title {
+    font-size: 42px;
+    text-align: center;
+  }
+  .comparison {
+    display: none;
+  }
+  .questions .questions__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+  }
+  .questions .questions__wrapper .questions__content-text .content__text-item {
+    font-size: 24px;
+    text-align: center;
+  }
+  .questions .questions__wrapper .questions__content-tel {
+    gap: 10px;
+  }
+  .questions .questions__wrapper .questions__content-tel a {
+    font-size: 24px;
+  }
+  .questions .questions__wrapper .questions__content-tel img {
+    width: 18px;
+  }
+  .sphere .container {
+    padding: 10px;
+  }
+  .sphere .sphere__header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+  }
+  .sphere .sphere__header .sphere__header-title {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .sphere .sphere__header .sphere__header-text {
+    font-size: 26px;
+  }
+  .sphere .sphere__main {
+    justify-content: center;
+    align-items: center;
+  }
+  .sphere .sphere__main .sphere__main-card {
+    padding: 45px 70px 45px 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .sphere .sphere__main .sphere__main-card .main__card-text {
+    text-align: center;
+  }
+  .sphere .sphere__footer .sphere__footer-content {
+    text-align: center;
+  }
+  .sphere .sphere__footer .sphere__footer-content .footer__content-red {
+    align-self: center;
+  }
+  .development {
+    margin-top: 100px;
+  }
+  .development .development__wrapper .development__main .development__main-header {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+  }
+  .development .development__wrapper .development__main .development__main-header .main__header-list {
+    text-align: left;
+  }
+  .development .development__wrapper .development__aside {
+    max-width: 100%;
+  }
+  .development .development__wrapper .development__aside .development__aside-header {
+    max-width: 767px;
+    text-align: center;
+  }
+  .development .development__wrapper .development__aside .development__aside-content .aside__content-header {
+    text-align: center;
+  }
+  .development .development__wrapper .development__aside .development__aside-content .aside__content-main {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__header {
+    text-align: center;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__header .occupancy__header-item {
+    font-size: 36px;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__main {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__main .occupancy__main-list ul li {
+    font-size: 22px;
+  }
+  .connect .connect__wrapper {
+    padding: 10px;
+  }
+  .connect .connect__main {
+    align-items: center;
+    justify-content: center;
+  }
+  .connect .connect__main .connect__main-title {
+    text-align: center;
+    font-size: 26px;
+  }
+  .connect .connect__main .connect__main-text {
+    text-align: center;
+    font-size: 26px;
+  }
+  .connect .connect__main .connect__main-text img {
+    width: 48px;
+  }
+  .feedback .feedback__wrapper {
+    padding: 0px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__header {
+    max-width: 600px;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .feedback .feedback__wrapper .feedback__header .feedback__header-title {
+    font-size: 48px;
+  }
+  .feedback .feedback__wrapper .feedback__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-info {
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-info input:last-child {
+    max-width: 600px;
+    width: 100%;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-comment input {
+    max-width: 600px;
+    width: 100%;
+  }
+  .feedback .feedback__wrapper .feedback__form .form__button {
+    max-width: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__form .form__button .feedback__form-button {
+    max-width: 600px;
+    width: 100%;
+  }
+  .faq .container {
+    padding: 10px;
+  }
+  .faq .faq__header {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .faq .faq__header .faq__header-title {
+    font-size: 48px;
+  }
+  .footer .container {
+    padding: 10px;
+  }
+  .footer .footer__wrapper {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer .footer__wrapper .footer__contacts {
+    padding-bottom: 80px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer .footer__wrapper .footer__contacts .footer__contacts-tel {
+    max-width: 320px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer__wrapper .footer__contacts .footer__contacts-card {
+    max-width: 212px;
+    width: 100%;
+  }
+  .footer .footer__wrapper .footer__info {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer .footer__wrapper .footer__info .footer__requisites-card {
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    max-width: 320px;
+    width: 100%;
+  }
+  .footer .footer__wrapper .footer__info .footer__requisites-card .requisites__card-main {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
 /* Landscape phones and portrait tablets */
-/* Portrait phones and smaller */
+@media (max-width: 767px) {
+  .header .header__nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+  }
+  .header .header__nav .header__navigation {
+    gap: 60px;
+  }
+  .header .section__main {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 40px;
+  }
+  .header .section__main .main__title {
+    font-size: 24px;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  .header .section__main .main__title .main__list {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  .header .section__main .main__title .main__list li {
+    font-size: 12px;
+    max-width: 300px;
+    width: 100%;
+  }
+  .header .section__main .main__button {
+    align-self: center;
+    max-width: 90%;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .calc {
+    padding-top: 100px;
+  }
+  .calc .calc__content {
+    justify-content: center;
+  }
+  .calc .calc__profit .calc__profit-title {
+    text-align: center;
+  }
+  .about .about__wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+  .about .about__content {
+    text-align: center;
+  }
+  .about .about__content .about__content-title {
+    font-size: 48px;
+  }
+  .about .about__content .about__content-list {
+    padding: 10px;
+  }
+  .about .about__content .about__content-list li {
+    font-size: 22px;
+    margin: 0;
+  }
+  .dynamicks .container {
+    padding: 10px;
+  }
+  .dynamicks .dynamicks__title {
+    text-align: center;
+    align-items: center;
+    font-size: 48px;
+  }
+  .dynamicks .dynamicks__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .dynamicks .dynamicks__content-card .content__card-wrapper {
+    justify-content: center;
+    text-align: center;
+  }
+  .location .location__wrapper .location__title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .location .location__wrapper .location__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .works .container {
+    padding: 10px;
+  }
+  .works .works__title {
+    font-size: 42px;
+    text-align: center;
+  }
+  .works .works__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .invest .container {
+    padding: 10px;
+  }
+  .invest .invest__wrapper {
+    gap: 40px;
+  }
+  .invest .invest__wrapper .invest__title {
+    text-align: center;
+  }
+  .invest .invest__wrapper .invest__title .invest__title-item {
+    font-size: 32px;
+  }
+  .invest .invest__wrapper .invest__content {
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .invest .invest__wrapper .invest__content-text {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+  }
+  .invest .invest__wrapper .invest__content-card-1 {
+    justify-content: center;
+    align-items: center;
+  }
+  .invest .invest__wrapper .invest__content-card {
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  .invest .invest__wrapper .invest__content-card .content__card-list {
+    justify-content: center;
+    align-items: center;
+  }
+  .invest .invest__wrapper .invest__content-card .content__card-list .card__list-item {
+    gap: 50px;
+    max-width: 450px;
+    width: 100%;
+    font-size: 15px;
+  }
+  .invest .invest__wrapper .invest__content-card .content__card-list .card__list-item img {
+    max-width: 48px;
+    height: auto;
+  }
+  .invest .invest__wrapper .invest__button {
+    align-self: center;
+    max-width: 600px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .invest .invest__wrapper table.iksweb th {
+    font-size: 16px;
+  }
+  .liquidity .container {
+    padding: 10px;
+  }
+  .liquidity .liquidity__wrapper .liquidity__title {
+    text-align: center;
+    font-size: 36px;
+  }
+  .liquidity .liquidity__wrapper .liquidity__title {
+    text-align: center;
+  }
+  .liquidity .liquidity__wrapper .liquidity__title .liquidity__title-title {
+    font-size: 38px;
+  }
+  .liquidity .liquidity__wrapper .liquidity__content-1 {
+    justify-content: center;
+    align-items: c;
+  }
+  .liquidity .liquidity__wrapper .liquidity__content-card {
+    flex-wrap: wrap;
+    max-width: 320px;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+  }
+  .liquidity .liquidity__wrapper .liquidity__content-card .content__card-header {
+    flex-wrap: wrap;
+  }
+  .pension .container {
+    padding: 10px;
+  }
+  .pension .pension__wrapper .pension__header-title {
+    font-size: 36px;
+    text-align: center;
+  }
+  .pension .pension__wrapper .pension__header-desc {
+    text-align: center;
+  }
+  .pension .pension__wrapper .pension__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .pension .pension__wrapper .pension__content .content__card {
+    padding: 20px;
+    text-align: center;
+  }
+  .pension .pension__wrapper .pension__content .content__card:first-child {
+    font-size: 24px;
+  }
+  .crisis .container {
+    padding: 10px;
+  }
+  .crisis .crisis__wrapper .crisis__header {
+    text-align: center;
+  }
+  .crisis .crisis__wrapper .crisis__header .crisis__header-title {
+    font-size: 38px;
+  }
+  .crisis .crisis__wrapper .crisis__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-heading {
+    justify-content: center;
+    align-items: center;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-heading .content__heading-title {
+    text-align: center;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-heading ul {
+    padding-left: 40px;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-card:last-child {
+    text-align: center;
+  }
+  .investment {
+    padding-bottom: 100px;
+  }
+  .investment .container {
+    padding: 10px;
+  }
+  .investment .investment__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .investment .investment__wrapper .investment__title {
+    font-size: 42px;
+    text-align: center;
+  }
+  .comparison {
+    display: none;
+  }
+  .questions .questions__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+  }
+  .questions .questions__wrapper .questions__content-text .content__text-item {
+    font-size: 24px;
+    text-align: center;
+  }
+  .questions .questions__wrapper .questions__content-tel {
+    gap: 10px;
+  }
+  .questions .questions__wrapper .questions__content-tel a {
+    font-size: 24px;
+  }
+  .questions .questions__wrapper .questions__content-tel img {
+    width: 18px;
+  }
+  .sphere .container {
+    padding: 10px;
+  }
+  .sphere .sphere__header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+  }
+  .sphere .sphere__header .sphere__header-title {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .sphere .sphere__header .sphere__header-text {
+    font-size: 26px;
+  }
+  .sphere .sphere__main {
+    justify-content: center;
+    align-items: center;
+  }
+  .sphere .sphere__main .sphere__main-card {
+    padding: 45px 70px 45px 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .sphere .sphere__main .sphere__main-card .main__card-text {
+    text-align: center;
+  }
+  .sphere .sphere__footer .sphere__footer-content {
+    text-align: center;
+  }
+  .sphere .sphere__footer .sphere__footer-content .footer__content-red {
+    align-self: center;
+  }
+  .development {
+    margin-top: 100px;
+  }
+  .development .development__wrapper .development__main .development__main-header {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+  }
+  .development .development__wrapper .development__main .development__main-header .main__header-list {
+    text-align: left;
+  }
+  .development .development__wrapper .development__aside {
+    max-width: 100%;
+  }
+  .development .development__wrapper .development__aside .development__aside-header {
+    max-width: 767px;
+    text-align: center;
+  }
+  .development .development__wrapper .development__aside .development__aside-content .aside__content-header {
+    text-align: center;
+  }
+  .development .development__wrapper .development__aside .development__aside-content .aside__content-main {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__header {
+    text-align: center;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__header .occupancy__header-item {
+    font-size: 36px;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__main {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__main .occupancy__main-list ul li {
+    font-size: 22px;
+  }
+  .connect .connect__wrapper {
+    padding: 10px;
+  }
+  .connect .connect__main {
+    align-items: center;
+    justify-content: center;
+  }
+  .connect .connect__main .connect__main-title {
+    text-align: center;
+    font-size: 26px;
+  }
+  .connect .connect__main .connect__main-text {
+    text-align: center;
+    font-size: 26px;
+  }
+  .connect .connect__main .connect__main-text img {
+    width: 48px;
+  }
+  .feedback .feedback__wrapper {
+    padding: 0px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__header {
+    max-width: 600px;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .feedback .feedback__wrapper .feedback__header .feedback__header-title {
+    font-size: 48px;
+  }
+  .feedback .feedback__wrapper .feedback__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-info {
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-info input:last-child {
+    max-width: 600px;
+    width: 100%;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-comment input {
+    max-width: 600px;
+    width: 100%;
+  }
+  .feedback .feedback__wrapper .feedback__form .form__button {
+    max-width: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__form .form__button .feedback__form-button {
+    max-width: 600px;
+    width: 100%;
+  }
+  .faq .container {
+    padding: 10px;
+  }
+  .faq .faq__header {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .faq .faq__header .faq__header-title {
+    font-size: 48px;
+  }
+  .footer .container {
+    padding: 10px;
+  }
+  .footer .footer__wrapper {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer .footer__wrapper .footer__contacts {
+    padding-bottom: 80px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer .footer__wrapper .footer__contacts .footer__contacts-tel {
+    max-width: 320px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer__wrapper .footer__contacts .footer__contacts-card {
+    max-width: 212px;
+    width: 100%;
+  }
+  .footer .footer__wrapper .footer__info {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer .footer__wrapper .footer__info .footer__requisites-card {
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    max-width: 320px;
+    width: 100%;
+  }
+  .footer .footer__wrapper .footer__info .footer__requisites-card .requisites__card-main {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 425px) {
+  .header .header__nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+  }
+  .header .section__main {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 40px;
+  }
+  .header .section__main .main__title {
+    font-size: 24px;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  .header .section__main .main__title .main__list {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  .header .section__main .main__title .main__list li {
+    font-size: 12px;
+    max-width: 300px;
+    width: 100%;
+  }
+  .header .section__main .main__button {
+    align-self: center;
+    max-width: 90%;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .calc {
+    padding-top: 100px;
+  }
+  .calc .calc__content {
+    justify-content: center;
+  }
+  .calc .calc__profit .calc__profit-title {
+    text-align: center;
+  }
+  .about .about__content {
+    text-align: center;
+  }
+  .about .about__content .about__content-title {
+    font-size: 48px;
+  }
+  .about .about__content .about__content-list {
+    padding: 10px;
+    list-style-type: none;
+  }
+  .about .about__content .about__content-list li {
+    font-size: 22px;
+    margin: 0;
+  }
+  .dynamicks .container {
+    padding: 10px;
+  }
+  .dynamicks .dynamicks__title {
+    text-align: center;
+    align-items: center;
+    font-size: 48px;
+  }
+  .dynamicks .dynamicks__content-card .content__card-wrapper {
+    justify-content: center;
+    text-align: center;
+  }
+  .location .location__wrapper .location__title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .works .container {
+    padding: 10px;
+  }
+  .works .works__title {
+    font-size: 42px;
+    text-align: center;
+  }
+  .works .works__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .invest .container {
+    padding: 10px;
+  }
+  .invest .invest__wrapper {
+    gap: 40px;
+  }
+  .invest .invest__wrapper .invest__title {
+    text-align: center;
+  }
+  .invest .invest__wrapper .invest__title .invest__title-item {
+    font-size: 32px;
+  }
+  .invest .invest__wrapper .invest__content {
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .invest .invest__wrapper .invest__content-text {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+  }
+  .invest .invest__wrapper .invest__content-card {
+    max-width: 400px;
+    width: 100%;
+  }
+  .invest .invest__wrapper .invest__content-card .content__card-list .card__list-item {
+    font-size: 14px;
+    justify-content: space-between;
+  }
+  .invest .invest__wrapper .invest__content-card .content__card-list .card__list-item img {
+    max-width: 48px;
+    height: auto;
+  }
+  .invest .invest__wrapper .invest__button {
+    padding: 10px;
+    align-self: center;
+    max-width: 390px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .invest .invest__wrapper table.iksweb th {
+    font-size: 16px;
+  }
+  .liquidity .container {
+    padding: 10px;
+  }
+  .liquidity .liquidity__wrapper .liquidity__title {
+    text-align: center;
+    font-size: 36px;
+  }
+  .liquidity .liquidity__wrapper .liquidity__title {
+    text-align: center;
+  }
+  .liquidity .liquidity__wrapper .liquidity__title .liquidity__title-title {
+    font-size: 38px;
+  }
+  .liquidity .liquidity__wrapper .liquidity__content-card {
+    flex-wrap: wrap;
+    max-width: 320px;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+  }
+  .liquidity .liquidity__wrapper .liquidity__content-card .content__card-header {
+    flex-wrap: wrap;
+  }
+  .liquidity .liquidity__wrapper .liquidity__content-1 {
+    align-items: center;
+    justify-content: center;
+  }
+  .pension .container {
+    padding: 10px;
+  }
+  .pension .pension__wrapper .pension__header-title {
+    font-size: 36px;
+    text-align: center;
+  }
+  .pension .pension__wrapper .pension__header-desc {
+    text-align: center;
+  }
+  .pension .pension__wrapper .pension__content .content__card {
+    padding: 20px;
+    text-align: center;
+  }
+  .pension .pension__wrapper .pension__content .content__card:first-child {
+    font-size: 24px;
+  }
+  .crisis .container {
+    padding: 10px;
+  }
+  .crisis .crisis__wrapper .crisis__header {
+    text-align: center;
+  }
+  .crisis .crisis__wrapper .crisis__header .crisis__header-title {
+    font-size: 38px;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-heading .content__heading-title {
+    text-align: center;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-heading ul {
+    padding-left: 40px;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-card:last-child {
+    text-align: center;
+  }
+  .investment {
+    padding-bottom: 100px;
+  }
+  .investment .container {
+    padding: 10px;
+  }
+  .investment .investment__wrapper .investment__title {
+    font-size: 42px;
+    text-align: center;
+  }
+  .investment .investment__wrapper .investment__content {
+    align-items: center;
+    justify-content: center;
+  }
+  .comparison {
+    display: none;
+  }
+  .questions .questions__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+  }
+  .questions .questions__wrapper .questions__content-text .content__text-item {
+    font-size: 24px;
+    text-align: center;
+  }
+  .questions .questions__wrapper .questions__content-tel {
+    gap: 10px;
+  }
+  .questions .questions__wrapper .questions__content-tel a {
+    font-size: 24px;
+  }
+  .questions .questions__wrapper .questions__content-tel img {
+    width: 18px;
+  }
+  .sphere .container {
+    padding: 10px;
+  }
+  .sphere .sphere__header {
+    text-align: center;
+    gap: 50px;
+  }
+  .sphere .sphere__header .sphere__header-title {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .sphere .sphere__header .sphere__header-text {
+    font-size: 26px;
+  }
+  .sphere .sphere__main .sphere__main-card {
+    padding: 45px 70px 45px 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .sphere .sphere__main .sphere__main-card .main__card-text {
+    text-align: center;
+  }
+  .sphere .sphere__footer .sphere__footer-content {
+    text-align: center;
+  }
+  .sphere .sphere__footer .sphere__footer-content .footer__content-red {
+    align-self: center;
+  }
+  .development {
+    margin-top: 100px;
+  }
+  .development .development__wrapper .development__main .development__main-header {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+  }
+  .development .development__wrapper .development__aside {
+    align-items: center;
+    justify-content: baseline;
+    max-width: 100%;
+  }
+  .development .development__wrapper .development__aside .development__aside-header {
+    max-width: 100%;
+    text-align: center;
+  }
+  .development .development__wrapper .development__aside .development__aside-content .aside__content-header {
+    text-align: center;
+  }
+  .development .development__wrapper .development__aside .development__aside-content .aside__content-main {
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__header {
+    text-align: center;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__header .occupancy__header-item {
+    font-size: 36px;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__main {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__main .occupancy__main-list ul li {
+    font-size: 22px;
+  }
+  .connect .connect__wrapper {
+    padding: 10px;
+  }
+  .connect .connect__main .connect__main-title {
+    text-align: center;
+    font-size: 26px;
+  }
+  .connect .connect__main .connect__main-text {
+    text-align: center;
+    font-size: 26px;
+  }
+  .connect .connect__main .connect__main-text img {
+    width: 48px;
+  }
+  .feedback .feedback__wrapper {
+    padding: 0px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__header {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .feedback .feedback__wrapper .feedback__header .feedback__header-title {
+    font-size: 48px;
+  }
+  .feedback .feedback__wrapper .feedback__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-info {
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-comment input {
+    max-width: 290px;
+  }
+  .feedback .feedback__wrapper .feedback__form .form__button {
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__form .form__button .feedback__form-button {
+    min-width: 290px;
+    width: 100%;
+  }
+  .faq .container {
+    padding: 10px;
+  }
+  .faq .faq__header {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .faq .faq__header .faq__header-title {
+    font-size: 48px;
+  }
+  .footer .container {
+    padding: 10px;
+  }
+  .footer .footer__wrapper {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer .footer__wrapper .footer__contacts {
+    padding-bottom: 80px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer .footer__wrapper .footer__contacts .footer__contacts-tel {
+    max-width: 320px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer__wrapper .footer__contacts .footer__contacts-card {
+    max-width: 212px;
+    width: 100%;
+  }
+  .footer .footer__wrapper .footer__info {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer__wrapper .footer__info .footer__requisites-card {
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    max-width: 320px;
+    width: 100%;
+  }
+  .footer .footer__wrapper .footer__info .footer__requisites-card .requisites__card-main {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 375px) {
+  .header .header__nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+  }
+  .header .section__main {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 40px;
+  }
+  .header .section__main .main__title {
+    font-size: 24px;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  .header .section__main .main__title .main__list {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  .header .section__main .main__title .main__list li {
+    font-size: 12px;
+    max-width: 300px;
+    width: 100%;
+  }
+  .header .section__main .main__button {
+    align-self: center;
+    max-width: 90%;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .calc {
+    padding-top: 100px;
+  }
+  .calc .calc__content {
+    justify-content: center;
+  }
+  .calc .calc__profit .calc__profit-title {
+    text-align: center;
+  }
+  .about .about__content {
+    text-align: center;
+  }
+  .about .about__content .about__content-title {
+    font-size: 48px;
+  }
+  .about .about__content .about__content-list {
+    padding: 10px;
+    list-style-type: none;
+  }
+  .about .about__content .about__content-list li {
+    font-size: 22px;
+    margin: 0;
+  }
+  .dynamicks .container {
+    padding: 10px;
+  }
+  .dynamicks .dynamicks__title {
+    text-align: center;
+    align-items: center;
+    font-size: 48px;
+  }
+  .dynamicks .dynamicks__content-card .content__card-wrapper {
+    justify-content: center;
+    text-align: center;
+  }
+  .location .location__wrapper .location__title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .works .container {
+    padding: 10px;
+  }
+  .works .works__title {
+    font-size: 42px;
+    text-align: center;
+  }
+  .works .works__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .invest .container {
+    padding: 10px;
+  }
+  .invest .invest__wrapper {
+    gap: 40px;
+  }
+  .invest .invest__wrapper .invest__title {
+    text-align: center;
+  }
+  .invest .invest__wrapper .invest__title .invest__title-item {
+    font-size: 32px;
+  }
+  .invest .invest__wrapper .invest__content {
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .invest .invest__wrapper .invest__content-text {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+  }
+  .invest .invest__wrapper .invest__content-card {
+    max-width: 320px;
+    width: 100%;
+  }
+  .invest .invest__wrapper .invest__content-card .content__card-list {
+    align-items: center;
+  }
+  .invest .invest__wrapper .invest__content-card .content__card-list .card__list-item {
+    font-size: 14px;
+    justify-content: space-between;
+  }
+  .invest .invest__wrapper .invest__content-card .content__card-list .card__list-item img {
+    max-width: 48px;
+    height: auto;
+  }
+  .invest .invest__wrapper .invest__button {
+    max-width: 320px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .invest .invest__wrapper table.iksweb th {
+    font-size: 16px;
+  }
+  .liquidity .container {
+    padding: 10px;
+  }
+  .liquidity .liquidity__wrapper .liquidity__title {
+    text-align: center;
+    font-size: 36px;
+  }
+  .liquidity .liquidity__wrapper .liquidity__content-1 {
+    justify-content: center;
+    align-items: center;
+  }
+  .liquidity .liquidity__wrapper .liquidity__title {
+    text-align: center;
+  }
+  .liquidity .liquidity__wrapper .liquidity__title .liquidity__title-title {
+    font-size: 38px;
+  }
+  .liquidity .liquidity__wrapper .liquidity__content-card {
+    flex-wrap: wrap;
+    max-width: 320px;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+  }
+  .liquidity .liquidity__wrapper .liquidity__content-card .content__card-header {
+    flex-wrap: wrap;
+  }
+  .pension .container {
+    padding: 10px;
+  }
+  .pension .pension__wrapper .pension__header-title {
+    font-size: 36px;
+    text-align: center;
+  }
+  .pension .pension__wrapper .pension__header-desc {
+    text-align: center;
+  }
+  .pension .pension__wrapper .pension__content .content__card {
+    padding: 20px;
+    text-align: center;
+  }
+  .pension .pension__wrapper .pension__content .content__card:first-child {
+    font-size: 24px;
+  }
+  .crisis .container {
+    padding: 10px;
+  }
+  .crisis .crisis__wrapper .crisis__header {
+    text-align: center;
+  }
+  .crisis .crisis__wrapper .crisis__header .crisis__header-title {
+    font-size: 38px;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-heading .content__heading-title {
+    text-align: center;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-heading ul {
+    padding-left: 40px;
+  }
+  .crisis .crisis__wrapper .crisis__content .crisis__content-card:last-child {
+    text-align: center;
+  }
+  .investment {
+    padding-bottom: 100px;
+  }
+  .investment .container {
+    padding: 10px;
+  }
+  .investment .investment__wrapper .investment__title {
+    font-size: 42px;
+    text-align: center;
+  }
+  .investment .investment__wrapper .investment__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .comparison {
+    display: none;
+  }
+  .questions .questions__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+  }
+  .questions .questions__wrapper .questions__content-text .content__text-item {
+    font-size: 24px;
+    text-align: center;
+  }
+  .questions .questions__wrapper .questions__content-tel {
+    gap: 10px;
+  }
+  .questions .questions__wrapper .questions__content-tel a {
+    font-size: 24px;
+  }
+  .questions .questions__wrapper .questions__content-tel img {
+    width: 18px;
+  }
+  .sphere .container {
+    padding: 10px;
+  }
+  .sphere .sphere__header {
+    text-align: center;
+    gap: 50px;
+  }
+  .sphere .sphere__header .sphere__header-title {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .sphere .sphere__header .sphere__header-text {
+    font-size: 26px;
+  }
+  .sphere .sphere__main .sphere__main-card {
+    padding: 45px 70px 45px 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .sphere .sphere__main .sphere__main-card .main__card-text {
+    text-align: center;
+  }
+  .sphere .sphere__footer .sphere__footer-content {
+    text-align: center;
+  }
+  .sphere .sphere__footer .sphere__footer-content .footer__content-red {
+    align-self: center;
+  }
+  .development {
+    margin-top: 100px;
+  }
+  .development .development__wrapper .development__main .development__main-header {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+  }
+  .development .development__wrapper .development__aside .development__aside-header {
+    text-align: center;
+  }
+  .development .development__wrapper .development__aside .development__aside-content .aside__content-header {
+    text-align: center;
+  }
+  .development .development__wrapper .development__aside .development__aside-content .aside__content-main {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__header {
+    text-align: center;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__header .occupancy__header-item {
+    font-size: 36px;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__main {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .development .development__wrapper .development__occupancy .occupancy__main .occupancy__main-list ul li {
+    font-size: 22px;
+  }
+  .connect .connect__wrapper {
+    padding: 10px;
+  }
+  .connect .connect__main .connect__main-title {
+    text-align: center;
+    font-size: 26px;
+  }
+  .connect .connect__main .connect__main-text {
+    text-align: center;
+    font-size: 26px;
+  }
+  .connect .connect__main .connect__main-text img {
+    width: 48px;
+  }
+  .feedback .feedback__wrapper {
+    padding: 0px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__header {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .feedback .feedback__wrapper .feedback__header .feedback__header-title {
+    font-size: 48px;
+  }
+  .feedback .feedback__wrapper .feedback__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-info {
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__form .feedback__form-comment input {
+    max-width: 290px;
+  }
+  .feedback .feedback__wrapper .feedback__form .form__button {
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback .feedback__wrapper .feedback__form .form__button .feedback__form-button {
+    min-width: 290px;
+    width: 100%;
+  }
+  .faq .container {
+    padding: 10px;
+  }
+  .faq .faq__header {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .faq .faq__header .faq__header-title {
+    font-size: 48px;
+  }
+  .footer .container {
+    padding: 10px;
+  }
+  .footer .footer__wrapper {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer .footer__wrapper .footer__contacts {
+    padding-bottom: 80px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer .footer__wrapper .footer__contacts .footer__contacts-tel {
+    max-width: 320px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer__wrapper .footer__contacts .footer__contacts-card {
+    max-width: 212px;
+    width: 100%;
+  }
+  .footer .footer__wrapper .footer__info {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer__wrapper .footer__info .footer__requisites-card {
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    max-width: 320px;
+    width: 100%;
+  }
+  .footer .footer__wrapper .footer__info .footer__requisites-card .requisites__card-main {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
 /* Iphone 5 */
 @media (max-width: 320px) {
   .header .header__nav {
